@@ -1,9 +1,9 @@
 
 # ChatGPT Coding Diary
 
-## Project Name: _[Insert project name]_
+## Project Name: _[dogs are cute]_
 
-### Date: _[Insert date]_
+### Date: _[11/25/24]_
 
 ---
 
@@ -14,7 +14,7 @@ Briefly describe the problem you're trying to solve or the task you're working o
 Example:
 > I need to write a program that sorts a list of integers in ascending order.
 
----
+make so0ng downloader or music playlist player through googe or youtube
 
 ## 2. **Initial Approach/Code**
 
@@ -25,6 +25,21 @@ Describe the initial approach you took to solving the problem. If you started wr
 def sort_numbers(numbers):
     return sorted(numbers)
 ```
+
+import urllib.parse
+
+def generate_google_link(song_name):
+  
+    query = urllib.parse.quote(song_name)
+    return f"https://www.google.com/search?q={query}+song+download"
+
+song_name = input("Enter the name of the song: ")
+
+
+google_link = generate_google_link(song_name)
+
+print(f"Here is a Google search link to download the song: {google_link}")
+playlist = {song_name : google_link }
 
 - What was your plan for solving the problem?
 - Did you have any initial thoughts or strategies before using ChatGPT?
@@ -46,7 +61,11 @@ Also include what code from ChatGPT you are unsure of and craft a question that 
 # Example prompt to ChatGPT:
 How can I optimize this sorting function for large datasets?
 ```
-
+can i use spotify to acsess songs
+why not
+can i use youtube
+how?
+can i scrape data
 ---
 
 ## 4. **ChatGPT's Suggestions/Code Changes**
